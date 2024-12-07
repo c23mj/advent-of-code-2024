@@ -40,4 +40,5 @@ def count_solvable(equations, operators):
 
 if __name__ == "__main__":
     equations = process_input('full_input.txt')
-    print(f"solvable with *+: {count_solvable(equations, '*+|')}")
+    print(f"solvable with *+: {count_solvable(equations, '*+')}")
+    print(f"solvable with *+|: {count_solvable(equations, '*+|')}")
